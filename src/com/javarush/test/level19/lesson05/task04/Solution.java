@@ -20,9 +20,6 @@ public class Solution {
             int data = fileReader.read();
             if ((char)data=='.') fileWriter.write((int)'!');
             else fileWriter.write(data);
-
-
-
         }
         fileReader.close();
         fileWriter.close();
